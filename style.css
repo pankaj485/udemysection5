@@ -10,77 +10,83 @@
 .sample-3 {
   font-family: "Sacramento", cursive;
 } */
-.source
-{ width: max-content;
-  font-size: xx-small;
-  font-family: cursive;
-  font-weight: lighter;
-  border: 1px black solid;
+.source {
+   width: max-content;
+   font-size: xx-small;
+   font-family: cursive;
+   font-weight: lighter;
+   border: 1px black solid;
 }
 body {
-  background-color: rgb(31, 129, 221);
-  text-align: center;
-  color: white;
+   background-color: rgb(31, 129, 221);
+   text-align: center;
+   color: white;
 }
 /* photos */
 
 hr {
-  border-style: none;
-  border-top-style: dotted;
-  width: 20%;
-  border-width: 5px;
-  color: rgba(218, 221, 47, 0.835);
-  margin: 10px auto 10px auto;
+   border-style: none;
+   border-top-style: dotted;
+   width: 20%;
+   border-width: 5px;
+   color: rgba(218, 221, 47, 0.835);
+   margin: 10px auto 10px auto;
 }
 
 .top-container {
-  position: relative;
-  background-color: rgba(31, 97, 221, 0.513);
+   position: relative;
+   background-color: rgba(31, 97, 221, 0.513);
 }
 
 .top-cloud {
-  margin-left: 300px;
-  margin-top: 20px;
+   margin-left: 300px;
+   margin-top: 20px;
 }
 
 .bottom-cloud {
-  position: absolute;
-  margin-right: 400px;
+   position: absolute;
+   margin-right: 400px;
+}
+@media (max-width: 800px) {
+   .mountain {
+      align-content: center;
+      width: 90%;
+      margin-top: 30px;
+   }
 }
 
 .Intro {
-  font-family: "Sacramento", cursive;
+   font-family: "Sacramento", cursive;
 }
 
 .photo {
-  width: 15%;
+   width: 15%;
 }
 
 h2 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 2.5rem;
-  color: #66BFBF;
-  font-weight: normal;
-  line-height: 02;
+   font-family: "Source Sans Pro", sans-serif;
+   font-size: 2.5rem;
+   color: #66bfbf;
+   font-weight: normal;
+   line-height: 02;
 }
 
-h3{
-  color:  #11999E;
+h3 {
+   color: #11999e;
 }
 
 h1 {
-  font-family: "Source Sans Pro", sans-serif;
-  color: #66BFBF;
+   font-family: "Source Sans Pro", sans-serif;
+   color: #66bfbf;
 }
 
-.button
-{
-  width: 50%;
-  margin: auto;
-  background-color: #66BFBF;
-  padding: 10px ;
-  color: #EAF6F6;
-  border-radius: 10px ;
+.button {
+   width: 50%;
+   margin: auto;
+   background-color: #66bfbf;
+   padding: 10px;
+   color: #eaf6f6;
+   border-radius: 10px;
 }
 /* contents  */
 
@@ -89,52 +95,52 @@ h1 {
 .second-skill,
 .skill-row-1,
 .skill-row-2 {
-  border: 2px greenyellow solid;
+ border: 2px greenyellow solid;
 } */
 
 .skills {
-  width: 50%;
-  margin: auto;
+   width: 50%;
+   margin: auto;
 }
 
 .skill-row-1,
 .skill-row-2 {
-  margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 2;
+   margin: 100px auto 100px auto;
+   text-align: left;
+   line-height: 2;
 }
 
 .first-skill,
 .second-skill {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-  border-radius: 10rem;
+   width: 25%;
+   float: left;
+   margin-right: 30px;
+   border-radius: 10rem;
 }
 .second-skill {
-  border-radius: 4rem;
-  width: 25%;
-  float: right;
-  margin-left: 30px;
+   border-radius: 4rem;
+   width: 25%;
+   float: right;
+   margin-left: 30px;
 }
 
 .Proffesion,
 h1 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
 }
 
 h4,
 p {
-  font-family: "Source Sans Pro", sans-serif;
+   font-family: "Source Sans Pro", sans-serif;
 }
 
 .bottom-container a,
 .contact-me a {
-  text-decoration: none;
-  color: black;
+   text-decoration: none;
+   color: black;
 }
-.middle-container a, .contact-me a
-{
-  color: rgb(122, 243, 243);
+.middle-container a,
+.contact-me a {
+   color: rgb(122, 243, 243);
 }
